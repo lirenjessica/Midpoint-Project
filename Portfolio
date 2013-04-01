@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+  <head>
+    <title>About Liren Truong</title>
+    <link rel="stylesheet" type="text/css" href="fullstyle.css" />
+  </head>
+
+  <body>
+    <!-- Sidebar Menu -->
+    <div id="sidebar">
+      <ul id="navigation">
+        <li><a href="Liren Truong.html">Home</a>
+        <li><a href="portfolio.html">Portfolio</a>
+        <li><a href="travels.html">Travels</a>
+        <li><a href="about.html">About Me</a>
+        <li><a href="contact.html">Contact</a>
+      </ul>
+    </div>
+    <!-- Main Content -->
+    <div id="main">
+      <h1>Portfolio</h1>
+      <h2>This is where my portfolio would go</h2>
+      <p> I don't really have anything to put here, so I am going to include some images of adorable animals </p>
+      <img src="http://www.brandontodd.tv/wp-content/uploads/2011/07/welcome.jpg" alt="Welcome!"/>
+    </div>  
+
+  </body>
+
+</html>

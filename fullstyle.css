@@ -1,0 +1,122 @@
+body{
+	background: url(http://fc05.deviantart.net/fs25/f/2009/251/6/1/Crumpled_Paper_37_by_Tackon.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#sidebar {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 25%;
+	float: left;
+	background-color:#dc8; 
+	color: black;
+  	margin: 20px 0px 20px 20px;
+  	padding: 20px;
+  	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  	font-weight: bold;
+}
+
+#navigation{
+	list-style-type: none;
+	padding: 0;
+}
+
+#navigation li {
+	background: white;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-right: 1em solid #930;
+}
+
+#navigation a {
+    text-decoration: none }
+
+a:link {
+    color: black }
+
+a:visited {
+    color: black }
+
+a:hover {
+    color: #F60 }
+
+#main {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 65%;
+	float: right;
+	color: black;
+	background-color: #C90;
+	margin: 20px 20px 20px 0px;
+  	padding: 20px;
+  	font-family: 'Trebuchet MS', Helvetica, sans-serif;  	
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+#main img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+}
+
+#main p{
+	text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+	#main img {
+	    width: 270px;
+	}
+	#navigation li{
+		border-right: none;
+
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#main{
+		float: left;
+		margin: 0px;
+		width: 100%;
+	}
+	#main img{
+		width: 200px;
+	}
+
+	#sidebar{
+		float: left;
+		margin: 0px;
+		width: 100%;
+		padding: 2px;
+		margin-bottom: 20px;
+		font-size: .9em;
+	}
+
+	#navigation{
+		text-align: center;
+
+	}
+	#navigation li{
+		display: inline;
+		margin: 0.5em 0;
+    	padding: 0.3em;
+    	border-right: none;
+    	background: none;
+	}
+	#navigation a{
+		display: inline-block;
+	}
+}
